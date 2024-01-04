@@ -1,0 +1,24 @@
+.top {
+    align-content: space-between !important;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-flow: column wrap; */
+    flex-wrap: initial;
+    color: darkslategray;
+    
+}
+
+.cards:hover{
+    box-shadow: 0 0 11px rgba(20, 20, 20, 0.2); 
+    border-radius: 25px;
+    transform: scale(1.05);
+
+}
+
+.image1:hover{
+    transform: scale(1.02) rotate(-0deg);
+}
+.carousel{
+    height:'250px';
+    width:'400px'
+}
